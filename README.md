@@ -23,6 +23,14 @@
     <li>Consultas Avançadas - <em>Derived Query - Native Query</em></li>
 </ol>
 
+##Visualizar a documentação
+
+```
+  http://localhost:8080/swagger-ui.html
+```
+
+![Documentacao](https://github.com/alex-dev2015/academia-digital/tree/main/src/main/java/me/dio/academia/digital/images/swagger.JPG)
+
 <h2>🛠 Tecnologias Utilizadas</h2>
 
 <ul>
@@ -35,6 +43,7 @@
     <li><strong>Hibernate Validator</strong></li>
     <li>Lombok</li>
     <li>Postman</li>
+    <li>Swagger</li>
 </ul>
 
 
@@ -78,6 +87,8 @@ Indica qual é o lado inverso ou não dominante da relação.
     <li><a href="https://start.spring.io/#!type=maven-project&language=java&platformVersion=2.6.1&packaging=jar&jvmVersion=11&groupId=me.dio.academia&artifactId=academia-digital&name=academia-digital&description=Tutorial%20API%20RESTful%20modelando%20sistema%20de%20academia%20de%20gin%C3%A1stica&packageName=me.dio.academia.digital&dependencies=web,data-jpa,postgresql,validation,lombok">Spring Initializr</a></li>
     <li><a href="https://docs.spring.io/spring-boot/docs/2.0.x/reference/html/common-application-properties.html">Common application properties</a></li>
     <li><a href="https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.repositories">Spring Data JPA - Reference Documentation</a></li>
+    <li><a href="https://swagger.io/">Swagger - API Documentation</a></li>
+
 </ul>
 
 

@@ -29,7 +29,7 @@
   http://localhost:8080/swagger-ui.html
 ```
 
-![Documentacao](https://github.com/alex-dev2015/academia-digital/tree/main/src/main/java/me/dio/academia/digital/images/swagger.JPG)
+![Documentacao](https://github.com/alex-dev2015/academia-digital/blob/main/src/main/java/me/dio/academia/digital/images/Swagger.png)
 
 <h2>🛠 Tecnologias Utilizadas</h2>
 

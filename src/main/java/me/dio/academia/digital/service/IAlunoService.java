@@ -6,6 +6,7 @@ import me.dio.academia.digital.entity.form.AlunoForm;
 import me.dio.academia.digital.entity.form.AlunoUpdateForm;
 
 import java.util.List;
+import java.util.Map;
 
 public interface IAlunoService {
   /**
@@ -26,7 +27,7 @@ public interface IAlunoService {
    * Retorna todos os Alunos que estão no banco de dados.
    * @return - Uma lista os Alunos que estão salvas no DB.
    */
-  List<Aluno> getAll();
+  List<Aluno> getAll(String dataDeNascimento);
 
   /**
    * Atualiza o Aluno.
@@ -41,7 +42,7 @@ public interface IAlunoService {
    * Deleta um Aluno específico.
    * @param id - id do Aluno que será removido.
    */
-  void delete(Long id);
+  Map<String, Boolean> delete(Long id);
 
   List<AvaliacaoFisica> getAllAvaliacaoFisicaId(Long id);
 }

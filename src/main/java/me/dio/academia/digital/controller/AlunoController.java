@@ -7,6 +7,7 @@ import me.dio.academia.digital.entity.form.AlunoUpdateForm;
 import me.dio.academia.digital.service.impl.AlunoServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -39,7 +40,6 @@ public class AlunoController {
 
     @DeleteMapping("remove/{id}")
     public Map<String, Boolean> delete(@PathVariable Long id){
-
 
         return service.delete(id);
     }
